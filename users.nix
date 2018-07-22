@@ -8,14 +8,7 @@
       isNormalUser = true;
       home         = "/home/misha";
       createHome   = true;
-      extraGroups  = [
-        "audio"
-        "video"
-        "wheel"
-        "networkmanager"
-        "vboxusers"
-        "docker"
-      ];
+      extraGroups  = [ "wheel" "networkmanager" ];
     };
   };
 }
