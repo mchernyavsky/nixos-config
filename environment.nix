@@ -35,7 +35,7 @@
       git
       gradle
       visualvm
-      oraclejdk10
+      oraclejdk8
       jetbrains.idea-community
     ];
 
