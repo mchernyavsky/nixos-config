@@ -37,6 +37,8 @@
       visualvm
       oraclejdk8
       jetbrains.idea-community
+
+      rustup
     ];
 
     shellAliases = {
