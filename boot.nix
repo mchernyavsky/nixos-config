@@ -2,7 +2,16 @@
 
 {
   boot.loader = {
-    systemd-boot.enable = true;
-    efi.canTouchEfiVariables = true;
+    grub = {
+      enable      = true;
+      version     = 2;
+      device      = "nodev";
+      efiSupport  = true;
+      useOSProber = true;
+    };
+    efi = {
+      canTouchEfiVariables = true;
+      efiSysMountPoint     = "/boot";
+    };
   };
 }
