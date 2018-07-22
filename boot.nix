@@ -2,11 +2,7 @@
 
 {
   boot.loader = {
-    grub = {
-      enable      = true;
-      version     = 2;
-      device      = "/dev/sda";
-      useOSProber = true;
-    };
+    systemd-boot.enable = true;
+    efi.canTouchEfiVariables = true;
   };
 }
