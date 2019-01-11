@@ -2,6 +2,7 @@
 
 {
   system.stateVersion = "18.03";
+  system.autoUpgrade.enable = true;
 
   imports = [
     ./boot.nix
