@@ -36,6 +36,7 @@
       visualvm
       oraclejdk8
       jetbrains.idea-community
+      jetbrains.clion
 
       rustup
     ];
