@@ -3,7 +3,6 @@
 {
   programs = {
     java.enable       = true;
-    vim.defaultEditor = true;
 
     zsh = {
       enable                    = true;

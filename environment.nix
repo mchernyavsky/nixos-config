@@ -20,7 +20,6 @@
       docker_compose
       virtualbox
 
-      neovim
       haskellPackages.stack
       haskellPackages.hlint
       haskellPackages.intero
@@ -48,8 +47,6 @@
     };
 
     variables = rec {
-      VISUAL  = "nvim";
-      EDITOR  = VISUAL;
       BROWSER = "chromium-browser";
     };
   };
