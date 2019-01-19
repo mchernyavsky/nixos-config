@@ -6,7 +6,7 @@
 
     zsh = {
       enable                    = true;
-      enableAutosuggestions     = true;
+      autosuggestions.enable    = true;
       syntaxHighlighting.enable = true;
     };
   };
