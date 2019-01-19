@@ -15,6 +15,9 @@
       transmission
       unetbootin
       gparted
+      simplescreenrecorder
+      spectacle
+      okular
 
       haskellPackages.stack
       haskellPackages.hlint
