@@ -16,10 +16,6 @@
       unetbootin
       gparted
 
-      docker
-      docker_compose
-      virtualbox
-
       haskellPackages.stack
       haskellPackages.hlint
       haskellPackages.intero

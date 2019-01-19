@@ -18,6 +18,5 @@
     ./services.nix
     ./sound.nix
     ./users.nix
-    ./virtualisation.nix
   ];
 }
