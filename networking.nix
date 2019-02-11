@@ -2,8 +2,8 @@
 
 {
   networking = {
-    hostName              = "nixos";
-    firewall.allowPing    = true;
+    hostName = "nixos";
+    firewall.allowPing = true;
     networkmanager.enable = true;
   };
 }

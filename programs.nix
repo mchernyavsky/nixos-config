@@ -2,11 +2,11 @@
 
 {
   programs = {
-    java.enable       = true;
+    java.enable = true;
 
     zsh = {
-      enable                    = true;
-      autosuggestions.enable    = true;
+      enable = true;
+      autosuggestions.enable = true;
       syntaxHighlighting.enable = true;
     };
   };

@@ -31,8 +31,8 @@
     ];
 
     shellAliases = {
-      build   = ''sudo -E nixos-rebuild build'';
-      switch  = ''sudo -E nixos-rebuild switch'';
+      build = ''sudo -E nixos-rebuild build'';
+      switch = ''sudo -E nixos-rebuild switch'';
       upgrade = ''sudo -E nixos-rebuild switch --upgrade'';
     };
 

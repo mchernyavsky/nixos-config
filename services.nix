@@ -5,26 +5,26 @@
     nixosManual.showManual = true;
 
     openssh = {
-      enable                 = true;
+      enable = true;
       passwordAuthentication = false;
     };
 
     xserver = {
-      enable     = true;
-      layout     = "us,ru(winkeys)";
+      enable = true;
+      layout = "us,ru(winkeys)";
       xkbOptions = "grp:alt_shift_toggle";
       xkbVariant = "winkeys";
 
       displayManager.sddm = {
-        enable    = true;
+        enable = true;
         autoLogin = {
-          enable  = true;
-          user    = "misha";
+          enable = true;
+          user = "misha";
         };
       };
 
       desktopManager.plasma5.enable = true;
-      desktopManager.xterm.enable   = false;
+      desktopManager.xterm.enable = false;
 
       videoDrivers = [ "nvidia" ];
     };

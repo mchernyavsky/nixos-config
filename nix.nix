@@ -3,7 +3,7 @@
 {
   nix.gc = {
     automatic = true;
-    dates     = "06:00";
-    options   = "--delete-older-than 7d";
+    dates = "06:00";
+    options = "--delete-older-than 7d";
   };
 }

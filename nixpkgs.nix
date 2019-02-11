@@ -2,11 +2,11 @@
 
 {
   nixpkgs.config = {
-    allowUnfree              = true;
+    allowUnfree = true;
     oraclejdk.accept_license = true;
     chromium = {
-      enablePepperPDF        = true;
-      enableGnomeExtensions  = true;
+      enablePepperPDF = true;
+      enableGnomeExtensions = true;
     };
   };
 }

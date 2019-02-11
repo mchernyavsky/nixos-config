@@ -2,7 +2,7 @@
 
 {
   sound = {
-    enable             = true;
+    enable = true;
     enableOSSEmulation = false;
   };
 }
