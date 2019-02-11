@@ -19,16 +19,6 @@
       spectacle
       okular
 
-      haskellPackages.stack
-      haskellPackages.hlint
-      haskellPackages.intero
-      haskellPackages.hoogle
-      haskellPackages.hindent
-      haskellPackages.ShellCheck
-      haskellPackages.apply-refact
-      haskellPackages.cabal-install
-      haskellPackages.stylish-haskell
-
       jdk
       git
       gradle
