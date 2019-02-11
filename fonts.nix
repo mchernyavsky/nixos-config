@@ -9,7 +9,6 @@
       hack-font
       fira-mono
       ubuntu_font_family
-      incosolata
     ];
   };
 }
