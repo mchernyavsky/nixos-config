@@ -18,16 +18,27 @@
       simplescreenrecorder
       spectacle
       okular
-
-      jdk
       git
+
+      # JVM
+      jdk
+      oraclejdk8
       gradle
       visualvm
-      oraclejdk8
-      jetbrains.idea-community
-      jetbrains.clion
 
+      # Native
+      gcc
+      gdb
+      cmake
+      gnumake
       rustup
+      valgrind
+      linuxPackages.perf
+
+      # Editors
+      vscode
+      jetbrains.idea-ultimate
+      jetbrains.clion
     ];
 
     shellAliases = {

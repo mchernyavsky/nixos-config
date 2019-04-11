@@ -23,8 +23,10 @@
         };
       };
 
-      desktopManager.plasma5.enable = true;
-      desktopManager.xterm.enable = false;
+      desktopManager = {
+        plasma5.enable = true;
+        xterm.enable = false;
+      };
 
       videoDrivers = [ "nvidia" ];
     };
